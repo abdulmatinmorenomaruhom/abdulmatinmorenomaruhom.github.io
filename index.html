@@ -23,8 +23,8 @@
       <a href="#home" class="active">Home</a>
       <a href="#about">About</a>
       <a href="#services">Services</a>
-      <!-- <a href="#portfolio">Portfolio</a>
-      <a href="#contact">Contact</a> -->
+      <a href="#portfolio">Projects</a>
+      <a href="#contact">Contact</a>
     </nav>
 
     <div class="bx bx-moon" id="darkMode-icon"></div>
@@ -41,16 +41,16 @@
       </p>
       <p>
         I'm a dedicated team player committed to delivering impactful, user-focused solutions. Let's connect to explore how my skills can contribute to meaningful projects.
-      </p>
+      </p>z
 
       <div class="social-media">
-        <a href="#"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100089305222483&mibextid=ZbWKwL" target="_blank"><i class="bx bxl-facebook"></i></a>
         <a href="#"><i class="bx bxl-twitter"></i></a>
-        <a href="#"><i class="bx bxl-instagram-alt"></i></a>
-        <a href="#"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://www.instagram.com/matzztamdesgins/" target="_blank"><i class="bx bxl-instagram-alt"></i></a>
+        <a href="https://www.linkedin.com/in/matzdev/" target="_blank"><i class="bx bxl-linkedin"></i></a>
       </div>
 
-      <a href="#" class="btn">Download CV</a>
+      <a href="https://drive.google.com/file/d/10obea4tsZdh6zc_Uy-SoHs0E__r-xMvc/view?usp=drive_link" target="_blank" class="btn">Download CV</a>
     </div>
 
     <div class="profession-container">
@@ -85,7 +85,7 @@
 
   <section class="about" id="about">
     <div class="about-img">
-      <img src="images/LOGOv2.png" alt="" />
+      <img  src="images/mockup.jpg" alt="" />
     </div>
 
     <div class="about-content">
@@ -125,7 +125,7 @@
         <h3>Graphic Design</h3>
         <p>
           Elevate your brand with visually captivating solutions.
-          Let your vision come to life through compelling and impactful design.
+          Let your vision and imagination come to life through compelling and impactful design.
         </p>
         <a href="#" class="btn">Read More</a>
       </div>
@@ -141,44 +141,41 @@
     </div>
   </section>
 
-  <!-- <section class="portfolio" id="portfolio">
-    <h2 class="heading">Latest <span>Project</span></h2>
+  <section class="portfolio" id="portfolio">
+    <h2 class="heading">Previous <span>Projects</span></h2>
 
     <div class="portfolio-container">
       <div class="portfolio-box">
         <img src="images/Flyers.jpg" alt="" />
 
         <div class="portfolio-layer">
-          <h4>Web Design</h4>
+          <h4>RANAO HRS</h4>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Similique, ipsam est.
+            Your Human Resource Information System (HRIS) for Lanao Del Sur Province is a groundbreaking solution that consolidates the four key HR functions into a single, streamlined system.
           </p>
           <a href="#"><i class="bx bx-link-external"></i></a>
         </div>
       </div>
       <div class="portfolio-box">
-        <img src="images/portfolio2.jpg" alt="" />
+        <img src="images/E-seqr.png" alt="" />
 
         <div class="portfolio-layer">
-          <h4>Web Design</h4>
+          <h4>e-SeQR</h4>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Similique, ipsam est.
+            The Electronic Secured QR-Code (e-SeQR) is a record authentication system designed to counter the proliferation of fake records, such as Vehicle Pass, Identification Cards, Diplomas, Certificates, Transcript of Records and other relevant records.
           </p>
-          <a href="#"><i class="bx bx-link-external"></i></a>
+          <a href="https://e-seqr.com/" target="_blank" ><i class="bx bx-link-external"></i></a>
         </div>
       </div>
       <div class="portfolio-box">
-        <img src="images/portfolio3.jpg" alt="" />
+        <img src="images/Seeapp.png" alt="" />
 
         <div class="portfolio-layer">
-          <h4>Web Design</h4>
+          <h4>SeeApp Ranao</h4>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Similique, ipsam est.
+            SeeApp Ranao Bakuna is an application portal that offers both online and offline data management system of Lanao del Sur Resident's vaccination details.
           </p>
-          <a href="#"><i class="bx bx-link-external"></i></a>
+          <a href="https://seeapp-vaccine.itsmarawi.com/" target="_blank"><i class="bx bx-link-external"></i></a>
         </div>
       </div>
       <div class="portfolio-box">
@@ -218,7 +215,7 @@
         </div>
       </div>
     </div>
-  </section> -->
+  </section>
 
   <!-- <div class="testimonial-container">
     <h2 class="heading">Valuable <span>Testimonial</span></h2>
@@ -277,22 +274,22 @@
     </div>
   </div> -->
 
-  <!-- <section class="contact" id="contact">
+  <section class="contact" id="contact">
     <h2 class="heading">Contact <span>Me!</span></h2>
 
     <form action="#">
       <div class="input-box">
-        <input type="text" placeholder="Full Name" />
-        <input type="email" placeholder="Email Address" />
+        <input id="name" type="text" placeholder="Full Name" required />
+        <input id="email" type="email" placeholder="Email Address" required />
       </div>
       <div class="input-box">
-        <input type="number" placeholder="Mobile Number" />
-        <input type="text" placeholder="Email Subject" />
+        <input id="mobile" type="number" placeholder="Mobile Number" />
+        <input id="subject" type="text" placeholder="Email Subject" required />
       </div>
-      <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-      <input type="submit" value="Send Message" class="btn" />
+      <textarea id="message" name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+      <input class="btn"  type="button" value="Send Message" onclick="redirectToEmail()" />
     </form>
-  </section> -->
+  </section>
 
   <footer class="footer">
     <div class="footer-text">
@@ -311,6 +308,24 @@
   <script src="js/script.js"></script>
 
   <script>
+
+function redirectToEmail() {
+      var name = document.getElementById("name").value;
+      var email = document.getElementById("email").value;
+      var mobile= document.getElementById("mobile").value;
+      var subject = document.getElementById("subject").value;
+      var message = document.getElementById("message").value;
+
+      var emailAddress = "maruhomabdulmatin@gmail.com";
+      var mailtoLink = "mailto:" + emailAddress +
+                      "?subject=" + encodeURIComponent(subject) +
+                      "&body=Name: " + encodeURIComponent(name) +
+                      "%0D%0AMobile: " + encodeURIComponent(mobile) +
+                      "%0D%0AMessage: " + encodeURIComponent(message);
+
+      window.location.href = mailtoLink;
+    }
+
     /*========== menu icon navbar ==========*/
 let menuIcon = document.querySelector("#menu-icon");
 let navbar = document.querySelector(".navbar");
