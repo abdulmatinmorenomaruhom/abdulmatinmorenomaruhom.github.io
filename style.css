@@ -12,7 +12,7 @@
 }
 
 :root {
-  --bg-color: #fdfdfd;
+  --bg-color: #eeeeee;
   --text-color: #333;
   --main-color: #008080;
   --white-color: #fdfdfd;
@@ -392,7 +392,7 @@ span {
 
 .portfolio .portfolio-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   align-items: center;
   gap: 2.5rem;
 }
